@@ -53,10 +53,12 @@ No arquivo **`connection.js`** localizado no diretório **`src/database`** alter
 
 **2 -** Executar o comando **`yarn knex seed:run`** para criar os usuários
 
-Admin: email: raphael@email.com
-       password: 123456
+**admin:**  
+email: raphael@email.com  
+password: 123456
 
-User:  email: nahan@email.com
-       password: 123456
+**user:**  
+email: nahan@email.com  
+password: 123456
 
 **3 -** Executar o comando **`yarn start`** ou **`npm start`** para executar o projeto em **http://localhost:3333**
