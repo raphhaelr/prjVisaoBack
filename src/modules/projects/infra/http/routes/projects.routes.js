@@ -6,7 +6,7 @@ const { ensureAuthenticated } = require('../../../../users/infra/http/middleware
 
 const projectsRouter = express.Router()
 
-//projectsRouter.use(ensureAuthenticated)
+projectsRouter.use(ensureAuthenticated)
 
 projectsRouter.get('/', projectsController.index)
 projectsRouter.get('/name', projectsController.findProjectsByNameWithLike)
