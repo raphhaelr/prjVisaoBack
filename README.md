@@ -49,6 +49,8 @@ No arquivo **`connection.js`** localizado no diretório **`src/database`** alter
 
 **Obs: Após instalar todas as dependências**
 
-**1 -** Executar o comando **`yarn knex migrate:latest`** para criar as tabelas no banco de dados.
+**1 -** Executar o comando **`yarn knex migrate:latest`** para criar as tabelas no banco de dados.  
 
-**2 -** Executar o comando **`yarn start`** ou **`npm start`** para executar o projeto em **http://localhost:3333**
+**2 -** Executar o comando **`yarn knex seed:run`**
+
+**3 -** Executar o comando **`yarn start`** ou **`npm start`** para executar o projeto em **http://localhost:3333**
